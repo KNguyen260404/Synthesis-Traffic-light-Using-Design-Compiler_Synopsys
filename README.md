@@ -1,5 +1,5 @@
 # Traffic Light Controller
-
+![Traffic Light Controller](./image/traffic_light_verilog.png)
 ## 1. Design Specifications:
 Design a traffic light controller using FSM and following specification:
 - Clock frequency: 10MHz
