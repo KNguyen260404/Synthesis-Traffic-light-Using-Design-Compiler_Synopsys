@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : Traffic_light
+Version: W-2024.09-SP3
+Date   : Thu Jul  3 16:02:52 2025
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed14rvt_ff0p88v125c (File: /home/Khach123/Documents/Nguyen/me_labs/liberty/saed14rvt_ff0p88v125c.db)
+
+Number of ports:                           71
+Number of nets:                           214
+Number of cells:                          174
+Number of combinational cells:            156
+Number of sequential cells:                14
+Number of macros/black boxes:               0
+Number of buf/inv:                         37
+Number of references:                       5
+
+Combinational area:                 41.647200
+Buf/Inv area:                        6.837600
+Noncombinational area:              15.984000
+Macro/Black Box area:                0.000000
+Net Interconnect area:              43.348670
+
+Total cell area:                    57.631201
+Total area:                        100.979870
+1

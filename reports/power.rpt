@@ -1,0 +1,62 @@
+Loading db file '/home/Khach123/Documents/Nguyen/me_labs/liberty/saed14rvt_ff0p88v125c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : Traffic_light
+Version: W-2024.09-SP3
+Date   : Thu Jul  3 16:02:58 2025
+****************************************
+
+
+Library(s) Used:
+
+    saed14rvt_ff0p88v125c (File: /home/Khach123/Documents/Nguyen/me_labs/liberty/saed14rvt_ff0p88v125c.db)
+
+
+Operating Conditions: ff0p88v125c   Library: saed14rvt_ff0p88v125c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+Traffic_light          ForQA             saed14rvt_ff0p88v125c
+
+
+Global Operating Voltage = 0.88 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  =   2.0126 uW   (91%)
+  Net Switching Power  = 198.0936 nW    (9%)
+                         ---------
+Total Dynamic Power    =   2.2107 uW  (100%)
+
+Cell Leakage Power     =   2.6233 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      1.8482            0.0000            0.0000            1.8482  (  38.23%)  i
+register       9.8580e-02        7.0636e-02        5.4028e+05            0.7095  (  14.68%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  6.5817e-02            0.1275        2.0830e+06            2.2763  (  47.09%)
+--------------------------------------------------------------------------------------------------
+Total              2.0126 uW         0.1981 uW     2.6233e+06 pW         4.8340 uW
+1

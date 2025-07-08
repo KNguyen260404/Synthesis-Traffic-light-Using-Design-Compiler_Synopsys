@@ -1,0 +1,64 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Traffic_light
+Version: W-2024.09-SP3
+Date   : Thu Jul  3 16:02:52 2025
+****************************************
+
+Operating Conditions: ff0p88v125c   Library: saed14rvt_ff0p88v125c
+Wire Load Model Mode: top
+
+  Startpoint: dut1/count_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: dut1/count_reg[2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Traffic_light      ForQA                 saed14rvt_ff0p88v125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  dut1/count_reg[0]/CK (SAEDRVT14_FDPRBQ_V2_1)            0.00       0.00 r
+  dut1/count_reg[0]/Q (SAEDRVT14_FDPRBQ_V2_1)             0.47       0.47 f
+  dut1/U7/X (SAEDRVT14_NR4_0P75)                          0.33       0.80 r
+  dut1/last (Light_Counter_pGREEN_INIT_VAL14_pYELLOW_INIT_VAL2_pRED_INIT_VAL17_pCNT_WIDTH5_pINIT_WIDTH3)
+                                                          0.00       0.80 r
+  dut3/light_cnt_last (Light_FSM_LIGHT_STATE_WIDTH3)      0.00       0.80 r
+  dut3/U7/X (SAEDRVT14_ND2_CDC_0P5)                       0.03       0.83 f
+  dut3/U6/X (SAEDRVT14_OR2_MM_0P5)                        0.03       0.86 f
+  dut3/U5/X (SAEDRVT14_INV_1P5)                           0.02       0.88 r
+  dut3/light_cnt_init[1] (Light_FSM_LIGHT_STATE_WIDTH3)
+                                                          0.00       0.88 r
+  dut1/init[1] (Light_Counter_pGREEN_INIT_VAL14_pYELLOW_INIT_VAL2_pRED_INIT_VAL17_pCNT_WIDTH5_pINIT_WIDTH3)
+                                                          0.00       0.88 r
+  dut1/U23/X (SAEDRVT14_INV_S_0P5)                        0.01       0.89 f
+  dut1/U24/X (SAEDRVT14_ND3B_0P75)                        0.02       0.91 r
+  dut1/U25/X (SAEDRVT14_ND3B_0P75)                        0.02       0.94 f
+  dut1/U3/X (SAEDRVT14_INV_1P5)                           0.01       0.95 r
+  dut1/U6/X (SAEDRVT14_AO221_0P5)                         0.02       0.97 r
+  dut1/count_reg[2]/D (SAEDRVT14_FDPSBQ_1)                0.01       0.98 r
+  data arrival time                                                  0.98
+
+  clock clk (rise edge)                                  10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                      -0.20       9.80
+  dut1/count_reg[2]/CK (SAEDRVT14_FDPSBQ_1)               0.00       9.80 r
+  library setup time                                     -0.01       9.79
+  data required time                                                 9.79
+  --------------------------------------------------------------------------
+  data required time                                                 9.79
+  data arrival time                                                 -0.98
+  --------------------------------------------------------------------------
+  slack (MET)                                                        8.81
+
+
+1
