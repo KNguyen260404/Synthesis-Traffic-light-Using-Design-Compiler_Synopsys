@@ -1,0 +1,6 @@
+/home/synopsys/tools/fm/W-2024.09-SP5/linux64/fm/bin/fm_shell_exec -r /home/synopsys/tools/fm/W-2024.09-SP5 -f LEC/traffic_light_lec.tcl 
+
+Version    = W-2024.09-SP5
+Build      = W-2024.09-SP5-formality_w2024.09_sp5_rel-9717777
+Build date = Apr  9, 2025
+Run date   = Tue Jul 15 15:05:44 2025 +07

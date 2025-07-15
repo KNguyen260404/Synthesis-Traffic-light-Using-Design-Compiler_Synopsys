@@ -1,0 +1,9 @@
+                                         Status
+Command                 Accepted   Rejected    Pending Unprocessed     Total
+----------------------------------------------------------------------------
+environment         :          4          0          0          0          4
+transformation
+   map              :          2          0          0          0          2
+uniquify            :          2          0          0          0          2
+----------------------------------------------------------------------------
+Total               :          8          0          0          0          8
