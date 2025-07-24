@@ -1,3 +1,4 @@
+WRONG SPEC ..... STILL FIXING
 # Traffic Light Controller
 ![Traffic Light Controller](./image/traffic_light_verilog.png)
 ## 1. Design Specifications:
